@@ -3,23 +3,9 @@
 使用高德地图sdk进行导航
 
 ## 安装
-`cordova plugin add https://github.com/JoyoDuan/com.kit.cordova.amapnavigation --save `
+`cordova plugin add https://github.com/chengrenz/amap  --variable iosamapkey=f81f461e33d304b1fab5765af9a7a8ce --variable androidamapkey=5ef4a68fc22c34a2d800235ebd1322f4 `
 
-## 配置
-更多详情请看http://www.jianshu.com/p/85aceaee3b35
-### Android
 
-*  修改 plugin.xml(:23) 文件中的高德地图android key
-
-`<preference name="amapapikey" value="这里填您申请的高德地图ios key"/>`
-
-ps:_如果也使用了[定位插件](https://github.com/JoyoDuan/com.kit.cordova.amaplocation),则不需要配置android key,因为在定位插件中已经配置了android key_
-
-### IOS
-
-*  修改 plugin.xml(:65) 文件中的高德地图ios key
-
-`<meta-data android:name="com.amap.api.v2.apikey" android:value="这里填您申请的高德地图android key"/>`
 
 ### ionic1调用方法
 
